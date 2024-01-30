@@ -22,7 +22,7 @@
 <p align="justify">The other approach used is YoloV5 which has its own convolutional architecture compared to the SSD models. Yolo has multiple versions in the past and the V5 has outperformed its past versions and managed to get an average precision (AP) score close to EfficientDet with higher fps. The overall architecture of the Yolo network consists of three main stuctures. Firstly is the backbone which is a convolutional neural network that extracts all the important features of the given input image. In YoloV5, the CSP networks are used to achieve this. Next, the architecture also consists of the neck which is a series of layers that are responsible to combine the features from the backbone and forward them for prediction. Feature pyramids are generated to help the model generalize on object scaling which will help to identify the same objects of different sizes. Lastly, the structure is the head which takes features from the neck and perform the final detection. Anchor boxes on features are applied and final output vectors with class probabilities, object scores, and bounding boxes are generated.</p>
 
 ## 4. System Demo
-
+![](Demo Assets/socialdistancedemo.gif)
 
 ## 5. Critical Analysis of Implementation
 ### 5.1 Qualitative Analysis
